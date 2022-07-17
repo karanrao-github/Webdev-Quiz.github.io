@@ -50,7 +50,7 @@ const questions = [
     {
         quiz: ['HTML is what type of language?'],
         options: ['Scripting Language', 'Markup Language', 'Programming Language', 'Network Protocol'],
-        correct: 1
+        correct: 2
     },
     {
         quiz: ['HTML uses'],
