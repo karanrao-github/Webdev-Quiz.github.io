@@ -5,6 +5,7 @@ body {
     position: relative;
 
 }
+
 .app{
     font-family: "Trebucent MS", "Lucide Grande", Vendana, Arial, sans-serif;
     display: flex;
@@ -82,8 +83,19 @@ p {
     font-family: "Trebucent MS", "Lucide Grande", Vendana, Arial, sans-serif;
 }
 
-@media screen and (min-width: 800px) { 
-    .container {
-        margin: 1em 2em;
+@media(max-width: 678px){
+    .quiz-title{
+        font-size: 1.6rem;
+    }
+    .app{
+        margin: 3rem 0;
+        width: 90%;
+        height: 90%;
+        padding: 1.5rem 1rem 3rem 1rem;
+        border-top-left-radius: 0;
+        border-bottom-right-radius: 0;
+    }
+    .footer{
+        font-size: 1rem;
     }
 }
