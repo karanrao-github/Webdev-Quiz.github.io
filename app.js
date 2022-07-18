@@ -1,6 +1,6 @@
 const scoreDisplay = document.getElementById('score-display')
 const questionDisplay = document.getElementById('question-display')
-
+// Questions
 const questions = [
     {
         quiz: ['which is most widely used protocol in internet?'],
@@ -25,16 +25,16 @@ const questions = [
     {
         quiz: ['Upload means'],
         options: ['Sending data from client machine to server machine', 'Sending data from server machine to client machine', 'All the above options', 'None'],
-        correct: 2
+        correct: 1
     },
     {
         quiz: ['Which is the first web browser?'],
-        options: ['Internet Explorer', 'Apple Safari', 'Chrome', 'Mosaic'],
+        options: ['Internet Explorer', 'WorldWideWeb (Nexus)', 'Chrome', 'Mosaic'],
         correct: 2
     },
     {
         quiz: ['ISP stands for: '],
-        options: ['Internet Server Protocol', 'Internet Service Protocol', 'Internet Service Provider', 'Internet System Provider'],
+        options: ['Internal Server Protocol', 'Internet Service Protocol', 'Internet Service Provider', 'Internet System Provider'],
         correct: 2
     },
     {
@@ -59,18 +59,18 @@ const questions = [
     },
     {
         quiz: ['The year in which HTML was first proposed _______.'],
-        options: ['1990', '1980', '2000', '1995'],
-        correct: 4
+        options: ['1990', '1980', '1993', '1995'],
+        correct: 3
     },
     {
         quiz: ['HTML is a subset of'],
         options: ['SGMT', 'SGMD', 'SGML', 'None of these'],
-        correct: 1
+        correct: 3
     },
     {
         quiz: ['Which of the following tag is used to link the URL'],
         options: ['<hyperlink>', '<style>', '<link>', '<a>'],
-        correct: 1
+        correct: 4
     },
     {
         quiz: ['<a> stands for'],
